@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.home{
+    background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+}
+.about{
+    background-image: linear-gradient( 109.6deg,  rgba(79,148,243,0.73) 11.2%, rgba(140,105,193,0.87) 91.2% );
+}
+.contact{
+    background-image: linear-gradient( 90.5deg,  rgba(250,156,245,1) 1.6%, rgba(182,76,233,1) 98.2% );
+}
+.service{
+    background-image: linear-gradient( 111.5deg,  rgba(163,197,230,1) 1.4%, rgba(148,150,213,1) 39.3%, rgba(159,139,208,1) 68.4%, rgba(159,121,198,1) 89.7%, rgba(157,101,203,1) 99.9% );
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    background: transparent;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    z-index: 1000;
+}
+.logo h2 {
+    color: white;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 2.5vw;
+}
+
+nav.links {
+    overflow: hidden;
+}
+
+nav.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav.links li {
+    margin-left: 20px;
+}
+nav a {
+    display: block;
+    color: white;
+    font-weight: bolder;
+    font-size:  larger;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.674);
+    color: black;
+    border-radius: 12px;
+}
+.content{
+    padding: 100px 20px;
+    margin-top: 30px;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: x-large;
+}
